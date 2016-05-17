@@ -1,0 +1,34 @@
+
+TR = (sum of all AR)
+AR = (ASW + WT) * SR
+
+
+
+
+
+
+
+TR = total resistance
+AR = axle resistance
+ASW = axle static weight
+WT = weight transfer
+SR = surface resistance
+
+
+information we need:
+    number of axles present
+    weight of each axle
+    type of resistance for each axle:
+        rolling hard  (.05)
+        rolling soft  (.15)
+        damaged       (.666)
+        mire tire depth (.75)
+        mire wheel depth (1.0)
+        mire body depth (1.5)
+    gradient (angle of pull)  (0-45 degrees):
+        0 (flat) = 0
+        15       = .25
+        30       = .5
+        45       = .75
+        >45      = 1.0
+    directon of pull (up or down)
